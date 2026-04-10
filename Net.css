@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&family=Viga&display=swap');
+*{
+     margin: 0;
+     padding: 15;
+
+}
+body{
+     background-color: rgb(204, 204, 209);
+     font-family: "Ubantu","Viga";
+}
+nav ul{
+     display: flex;
+     list-style-type: none;
+     height: 70px;
+     background-color: aquamarine;
+     align-items: center;
+}
+nav ul li{
+     padding:0 12px ;
+}
+.brand img{
+     width: 70px;
+     padding:0 8px;
+     z-index: 20px;
+}
+.brand{
+     display: flex;
+     align-items: center;
+     font-size: 1.5rem;
+     font-family: "Ubantu";
+}
+/* this is the styling of centre */
+.container{
+     min-height: 70vh;
+     background-color: black;
+     color: rgb(64, 230, 31);
+     font-family: "Roboto";
+     display: flex;
+     margin: 23px auto;
+     width: 70%;
+     border-radius: 12px;
+     background-image: url("Cover/LISA.jpg");
+     /* object-fit: cover; */
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+/* That,s a bottom styling */
+.bottom{
+     position: sticky;
+     bottom: 0;
+     height: 90px;
+     display: flex;
+     background-color: black;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0px 0 ;
+}
+#range{
+     width: 80vw;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+}
+input{
+     display: flex;
+     display: flex;
+     align-self: center;
+}
+.icons{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 5px ;
+     cursor: pointer;
+     
+}
+.other{
+     display: flex;
+}
+.icons i{
+     margin: 14px;
+     cursor: pointer;
+}
+/* .gif{
+     
+     left: 10vw;
+     width: 100%;
+
+
+} */
+/* @media screen  and (min-width :768px) {
+     .gif{
+          margin-left: 0;
+          width: 50%;
+     }
+} */
+#gif{
+   transition: 0.4s ease-in-out;
+     opacity: 0;
+     cursor: pointer;
+}
+#if{
+     color: rgb(110, 228, 0);
+     margin-bottom: 0;
+     margin: 20px;
+     margin-right: 10px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gif{
+     margin-left: 0;
+     display: flex;align-self: first baseline;
+     justify-content: first baseline;
+}
+.songItem{
+     height: 50px;
+     display:flex ;
+     width: 40%;
+     background-color: red;
+     border: 3px solid black inset;
+     border-radius: 20px;
+     color: beige;
+     margin: 12px 0;
+     align-items: center;
+     justify-content: center;
+}
+.songitemContainer{
+     margin-top: 64px;
+}
+.songItem img{
+border-radius: 40%;
+margin: 5px 5px 5px 5px ;
+}
+/* //INside box styling classes */
+.imageI{
+
+}
+.songName{
+
+}
+.songlistPlay{
+
+}
+.myTime{
+/* margin: 0 12px; */
+cursor: pointer;
+}
+.palyto{
+margin: 0%;
+cursor: pointer;
+
+}
+.rrr{
+     cursor: pointer;
+}
+@keyframes transmit{
+     0%{
+
+     }
+     70%{
+
+     }
+}
